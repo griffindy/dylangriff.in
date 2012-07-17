@@ -2,10 +2,15 @@ body {
   font-family: sans-serif;
   width: 33%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10%;
   line-height: 1.5;
 }
 
+a, a:hover, a:visited {
+  color: black;
+}
+
 ul {
-  /* list-style: none; */
+  list-style: none;
+  margin-left: -40px;
 }
