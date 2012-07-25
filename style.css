@@ -2,8 +2,10 @@ body {
   font-family: sans-serif;
   width: 33%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 5%;
   line-height: 1.5;
+  border: 1px solid #aaa;
+  padding: 50px;
 }
 
 a, a:hover, a:visited {
