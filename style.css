@@ -1,5 +1,5 @@
 html {
-  background: #d9d9d9;
+  background: #55667F;
 }
 
 body {
@@ -8,9 +8,11 @@ body {
   margin: 0 auto;
   margin-top: 5%;
   line-height: 1.5;
-  border: 1px solid #aaa;
   padding: 50px;
   background: white;
+  -moz-box-shadow: 0 0 10px #123;
+  -webkit-box-shadow: 0 0 10px #123;
+  box-shadow: 0 0 10px #123;
 }
 
 a, a:hover, a:visited {
