@@ -1,7 +1,7 @@
 set :application, "dylangriff.in"
 set :repository,  "git@github.com:griffindy/dylangriff.in"
 
-set :deploy_to, '/var/www/dylangriff.in/html'
+set :deploy_to, '/var/www/dylangriff.in/'
 set :user, 'ubuntu'
 ssh_options[:keys] = File.join(ENV['HOME'], '.ssh', 'aws', 'test.pem')
 ssh_options[:forward_agent] = true
